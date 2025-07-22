@@ -1,140 +1,69 @@
-# Võ Hoàng Tùng - Portfolio
+# Võ Hoàng Tùng - Personal Portfolio
 
-A modern, minimal portfolio website built with Next.js, showcasing my skills and projects as a software developer.
+My personal portfolio website showcasing my journey as a software developer, built with modern web technologies.
 
-## 🚀 Live Demo
+## 🚀 Live Website
 
 Visit my portfolio: [https://htung0403.github.io/portfolio](https://htung0403.github.io/portfolio)
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **Framework**: Next.js 15
-- **Styling**: TailwindCSS
-- **Animations**: Framer Motion
-- **Language**: TypeScript
-- **Deployment**: Vercel/GitHub Pages
+- **Next.js 15** - React framework for production
+- **TypeScript** - Type-safe JavaScript
+- **TailwindCSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **Vercel** - Deployment platform
 
-## ✨ Features
+## ✨ What You'll Find
 
-- ⚡ Fast and optimized with Next.js
-- 📱 Fully responsive design
-- 🎨 Clean and minimal UI/UX
-- ✨ Smooth animations with Framer Motion
-- 🌙 Dark theme design
-- 📧 Contact form integration
-- 🔍 SEO optimized
+- � About me and my background
+- 💼 My skills and technologies I work with
+- 🚀 Projects I've built and contributed to
+- 📧 Ways to get in touch with me
 
-## 🏃‍♂️ Quick Start
+## 🎯 Project Highlights
 
-1. Clone the repository:
+This portfolio demonstrates my expertise in:
+- Modern React development with Next.js
+- Responsive design and mobile-first approach
+- Smooth animations and user experience
+- Clean, maintainable code structure
+- SEO optimization and performance
+
+## 📱 Features
+
+- **Responsive Design**: Works seamlessly on all devices
+- **Dark Theme**: Modern dark UI with purple accents
+- **Smooth Animations**: Engaging micro-interactions
+- **Performance Optimized**: Fast loading times
+- **SEO Friendly**: Optimized for search engines
+
+## 🏗️ Development
+
+To run this project locally:
 
 ```bash
+# Clone the repository
 git clone https://github.com/htung0403/portfolio.git
 cd portfolio
-```
 
-2. Install dependencies:
-
-```bash
+# Install dependencies
 npm install
-```
 
-3. Run the development server:
-
-```bash
+# Start development server
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 📁 Project Structure
-
-```
-├── app/
-│   ├── components/
-│   │   ├── HeroSection.tsx      # Hero/landing section
-│   │   ├── SkillsSection.tsx    # Skills and technologies
-│   │   ├── ProjectsSection.tsx  # Portfolio projects
-│   │   └── ContactSection.tsx   # Contact information
-│   ├── globals.css              # Global styles
-│   ├── layout.tsx               # Root layout
-│   └── page.tsx                 # Main page
-├── public/                      # Static assets
-├── tailwind.config.ts           # TailwindCSS configuration
-└── next.config.ts               # Next.js configuration
-```
-
-## 🎨 Customization
-
-### Personal Information
-
-Update the following files with your information:
-
-1. **app/layout.tsx** - Metadata, SEO, and site information
-2. **app/components/HeroSection.tsx** - Name, title, and introduction
-3. **app/components/SkillsSection.tsx** - Your skills and technologies
-4. **app/components/ProjectsSection.tsx** - Your projects and portfolio items
-5. **app/components/ContactSection.tsx** - Contact information and social links
-
-### Styling
-
-- **Colors**: Modify `tailwind.config.ts` for custom color schemes
-- **Fonts**: Update font imports in `app/layout.tsx`
-- **Animations**: Customize Framer Motion animations in component files
-
-## 📦 Available Scripts
-
-```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run start        # Start production server
-npm run lint         # Run ESLint
-```
-
-## 🚀 Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Visit [Vercel](https://vercel.com)
-3. Import your GitHub repository
-4. Deploy with one click
-
-### Deploy to GitHub Pages
-
-1. Install gh-pages:
-```bash
-npm install --save-dev gh-pages
-```
-
-2. Add to package.json:
-```json
-{
-  "scripts": {
-    "deploy": "gh-pages -d out"
-  }
-}
-```
-
-3. Build and deploy:
-```bash
-npm run build
-npm run deploy
-```
-
-## 🤝 Contact
+## 🤝 Connect With Me
 
 - **Email**: htung0403@gmail.com
 - **GitHub**: [htung0403](https://github.com/htung0403)
 - **LinkedIn**: [Võ Hoàng Tùng](https://linkedin.com/in/tùng-hoàng-34864a295/)
 - **Facebook**: [htung0403](https://facebook.com/htung0403)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+- **Location**: Bình Thạnh, TP HCM
 
 ---
 
-⭐ If you found this portfolio template helpful, please give it a star!
-
-Built with ❤️ by [Võ Hoàng Tùng](https://github.com/htung0403)
+Built with ❤️ using Next.js and TailwindCSS
