@@ -1,140 +1,140 @@
-# Modern Minimal Portfolio Template
+# Võ Hoàng Tùng - Portfolio
 
-[Demo](https://www.devportfoliotemplates.com/portfolio-templates/modern-minimal)
+A modern, minimal portfolio website built with Next.js, showcasing my skills and projects as a software developer.
 
-## Getting Started
+## 🚀 Live Demo
 
-You have two options to get started with this template:
+Visit my portfolio: [https://htung0403.github.io/portfolio](https://htung0403.github.io/portfolio)
 
-### Option 1: Using Git Sparse Checkout
+## 🛠️ Tech Stack
 
-If you want to clone only this specific template:
+- **Framework**: Next.js 15
+- **Styling**: TailwindCSS
+- **Animations**: Framer Motion
+- **Language**: TypeScript
+- **Deployment**: Vercel/GitHub Pages
+
+## ✨ Features
+
+- ⚡ Fast and optimized with Next.js
+- 📱 Fully responsive design
+- 🎨 Clean and minimal UI/UX
+- ✨ Smooth animations with Framer Motion
+- 🌙 Dark theme design
+- 📧 Contact form integration
+- 🔍 SEO optimized
+
+## 🏃‍♂️ Quick Start
+
+1. Clone the repository:
 
 ```bash
-git clone --no-checkout https://github.com/devportfoliotemplates/devportfoliotemplates.git
-cd devportfoliotemplates
-git sparse-checkout init --cone
-git sparse-checkout set modern-minimal-portfolio-template
-git checkout
+git clone https://github.com/htung0403/portfolio.git
+cd portfolio
 ```
 
-### Option 2: Direct Download
-
-You can download this template as a ZIP file:
-
-1. Visit [download-directory.github.io](https://download-directory.github.io/)
-2. Paste the URL of this portfolio folder: `https://github.com/devportfoliotemplates/devportfoliotemplates/tree/main/modern-minimal-portfolio-template`
-3. Download and extract the ZIP file
-
-### Running the Template
-
-Once you have the template:
-
-1. Install dependencies:
+2. Install dependencies:
 
 ```bash
 npm install
-# or
-yarn install
-# or
-pnpm install
 ```
 
-2. Run the development server:
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Customization
+## 📁 Project Structure
+
+```
+├── app/
+│   ├── components/
+│   │   ├── HeroSection.tsx      # Hero/landing section
+│   │   ├── SkillsSection.tsx    # Skills and technologies
+│   │   ├── ProjectsSection.tsx  # Portfolio projects
+│   │   └── ContactSection.tsx   # Contact information
+│   ├── globals.css              # Global styles
+│   ├── layout.tsx               # Root layout
+│   └── page.tsx                 # Main page
+├── public/                      # Static assets
+├── tailwind.config.ts           # TailwindCSS configuration
+└── next.config.ts               # Next.js configuration
+```
+
+## 🎨 Customization
 
 ### Personal Information
 
-1. Update metadata in `app/layout.tsx`:
+Update the following files with your information:
 
-   - Site title
-   - Description
-   - Open Graph metadata
-   - Favicon
-
-2. Modify content in `app/page.tsx`:
-
-   - Hero section
-   - About section
-   - Projects
-   - Contact information
-
-3. Replace assets:
-   - Replace images in the `public` directory
-   - Update social media icons
-   - Modify logo if needed
+1. **app/layout.tsx** - Metadata, SEO, and site information
+2. **app/components/HeroSection.tsx** - Name, title, and introduction
+3. **app/components/SkillsSection.tsx** - Your skills and technologies
+4. **app/components/ProjectsSection.tsx** - Your projects and portfolio items
+5. **app/components/ContactSection.tsx** - Contact information and social links
 
 ### Styling
 
-1. Colors and Theme:
+- **Colors**: Modify `tailwind.config.ts` for custom color schemes
+- **Fonts**: Update font imports in `app/layout.tsx`
+- **Animations**: Customize Framer Motion animations in component files
 
-   - Customize colors in `tailwind.config.js`
-   - Modify theme variables in `app/globals.css`
+## 📦 Available Scripts
 
-2. Typography:
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+```
 
-   - Update font families in `tailwind.config.js`
-   - Modify text sizes and weights
+## 🚀 Deployment
 
-3. Layout:
-   - Adjust spacing and padding in component files
-   - Modify responsive breakpoints in `tailwind.config.js`
+### Deploy to Vercel (Recommended)
 
-## Troubleshooting
+1. Push your code to GitHub
+2. Visit [Vercel](https://vercel.com)
+3. Import your GitHub repository
+4. Deploy with one click
 
-### Common Issues
+### Deploy to GitHub Pages
 
-1. **Build Errors**
+1. Install gh-pages:
+```bash
+npm install --save-dev gh-pages
+```
 
-   - Ensure all dependencies are installed
-   - Clear `.next` folder and node_modules
-   - Run `npm install` again
+2. Add to package.json:
+```json
+{
+  "scripts": {
+    "deploy": "gh-pages -d out"
+  }
+}
+```
 
-2. **Styling Issues**
+3. Build and deploy:
+```bash
+npm run build
+npm run deploy
+```
 
-   - Run `npm run build` to ensure TailwindCSS classes are generated
-   - Check for conflicting styles in `globals.css`
+## 🤝 Contact
 
-3. **Image Loading**
-   - Verify images are in the correct format (PNG, JPG, WebP)
-   - Check image paths are correct
-   - Ensure images are in the `public` directory
+- **Email**: htung0403@gmail.com
+- **GitHub**: [htung0403](https://github.com/htung0403)
+- **LinkedIn**: [Võ Hoàng Tùng](https://linkedin.com/in/tùng-hoàng-34864a295/)
+- **Facebook**: [htung0403](https://facebook.com/htung0403)
 
-## Deployment
+## 📄 License
 
-Follow these steps to deploy your portfolio for free using GitHub and Vercel:
+This project is open source and available under the [MIT License](LICENSE).
 
-1. Create a new GitHub repository
+---
 
-2. Push your portfolio to GitHub
+⭐ If you found this portfolio template helpful, please give it a star!
 
-3. Deploy with Vercel:
-   - Go to [Vercel](https://vercel.com)
-   - Sign up or log in with GitHub
-   - Click "New Project"
-   - Import your GitHub repository
-   - Vercel will automatically detect Next.js
-   - Click "Deploy"
-
-Your portfolio will be live in minutes with a free Vercel domain (e.g., `your-repo.vercel.app`). You can later add a custom domain in your Vercel project settings.
-
-## Support
-
-If you find these templates helpful, please consider:
-
-- Starring the repository ⭐
-- Sharing with other developers
-- [Buying me a coffee](https://www.buymeacoffee.com/andreiancu) ☕
-
-For issues and feature requests, please [create an issue](https://github.com/devportfoliotemplates/devportfoliotemplates/issues).
+Built with ❤️ by [Võ Hoàng Tùng](https://github.com/htung0403)
